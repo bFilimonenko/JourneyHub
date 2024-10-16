@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Rubik-VariableFont_wght";
+  src: url("../fonts/Rubik-VariableFont_wght.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "Rubik-VariableFont_wght", sans-serif;
+}
+
+header {
+  background-color: #efd9ce;
+  padding-top: 10vh;
+}
+header__nav-link {
+  color: #dec0f1;
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,11 @@
+@use "tools";
+
+header {
+  background-color: tools.$color-main;
+  padding-top: 10vh;
+
+  &__nav-link {
+    color: tools.$color-secondary;
+    text-decoration: none;
+  }
+}
