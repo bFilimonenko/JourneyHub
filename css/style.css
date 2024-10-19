@@ -9,10 +9,29 @@ body {
 }
 
 header {
-  background-color: #efd9ce;
-  padding-top: 10vh;
+  background: linear-gradient(0deg, #efd9ce, #dec0f1, #b79ced, #957fef, #7161ef);
+  padding-top: 5vh;
 }
-header__nav-link {
-  color: #dec0f1;
+header .title {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+header .title a {
+  margin: 0;
+  font-size: 1.5rem;
   text-decoration: none;
+  color: #000000;
+}
+header .logo {
+  width: 100px;
+}
+header .title a, header .logo {
+  margin: 0 1rem;
+}
+header .dropdown-menu {
+  --bs-dropdown-min-width: 0;
+}
+header .nav-item i {
+  margin-right: 1rem;
 }/*# sourceMappingURL=style.css.map */
