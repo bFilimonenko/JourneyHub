@@ -3,9 +3,19 @@ $color-secondary: #dec0f1ff;
 $color-tertiary: #b79cedff;
 $color-additional: #957fefff;
 $color-highlight: #7161efff;
+$color-base: #ffffff;
 
 $color-font: #000000;
 
+$gradient-main: linear-gradient(
+  180deg,
+  $color-base,
+  $color-main,
+  $color-secondary,
+  $color-tertiary,
+  $color-additional,
+  $color-highlight
+);
 $gradient-top: linear-gradient(
   0deg,
   $color-main,

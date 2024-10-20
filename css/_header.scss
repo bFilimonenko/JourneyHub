@@ -3,6 +3,7 @@
 header {
   background: tools.$gradient-top;
   padding-top: 5vh;
+  border-bottom: 2px solid tools.$color-font;
 
   & .title {
     display: flex;
@@ -30,7 +31,9 @@ header {
     --bs-dropdown-min-width: 0;
   }
 
-  & .nav-item i {
-    margin-right: 1rem;
+  & .nav-item {
+    i {
+      margin-right: 1rem;
+    }
   }
 }
