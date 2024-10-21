@@ -67,79 +67,134 @@
     <div class="row">
 
         <div class="col-12 col-md-9">
+            <form>
+                <div class="row">
+                    <div class="col-sm-6 py-3">
+                        <div class="form-group">
+                            <label for="countryOfArrival" class="form-label">Country of arrival</label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="fa-solid fa-earth-americas"></i></span>
+                                <select class="form-select" id="countryOfArrival" aria-label="Country of arrival">
+                                    <option selected>Популярні напрямки</option>
+                                    <option value="Bulgaria">Болгарія</option>
+                                    <option value="Egypt">Єгипет</option>
+                                    <option value="Turkey">Туреччина</option>
+                                    <option value="UAE">OAE</option>
+                                    <option value="Spain">Іспанія</option>
+                                    <option value="Greece">Греція</option>
+                                    <option value="Tanzania">Танзанія</option>
+                                    <option value="Thailand">Таїланд</option>
+                                    <option value="Cyprus">Кіпр</option>
+                                    <option value="Maldives">Мальдіви</option>
+                                    <option value="Dominican">Домінікана</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 py-3">
+                        <div class="form-group">
+                            <label for="cityOfDeparture" class="form-label">City of departure</label>
+                            <input class="form-control" list="datalistOptions" id="cityOfDeparture"
+                                   placeholder="Звідки виліт...">
+                            <datalist id="datalistOptions">
+                                <option value="Київ">
+                                <option value="Дніпро">
+                                <option value="Запоріжжя">
+                            </datalist>
+                        </div>
+                    </div>
+                </div>
+                <!--people-->
+                <div class="row">
+                    <div class="form-group col-sm-6 py-3">
+                        <i class="fa-solid fa-person"></i>
+                        <label for="adults" class="form-label">Adults</label>
+                        <input type="range" class="form-range" value="1" min="1" max="10" step="1" id="adults">
+                        <div class="d-flex justify-content-between">
+                            <span>1</span>
+                            <span>2</span>
+                            <span>3</span>
+                            <span>4</span>
+                            <span>5</span>
+                            <span>6</span>
+                            <span>7</span>
+                            <span>8</span>
+                            <span>9</span>
+                            <span>10</span>
+                        </div>
+                    </div>
+                    <div class="form-group col-sm-6 py-3">
+                        <i class="fa-solid fa-baby"></i>
+                        <label for="child" class="form-label">Child</label>
+                        <input type="range" class="form-range" value="0" min="0" max="5" step="1" id="child">
+                        <div class="d-flex justify-content-between">
+                            <span>0</span>
+                            <span>1</span>
+                            <span>2</span>
+                            <span>3</span>
+                            <span>4</span>
+                            <span>5</span>
+                        </div>
+                    </div>
+                </div>
+                <!--price-->
+                <div class="row">
+                    <span class="h5"><i class="fa-regular fa-money-bill-1"></i> Price</span>
+                    <div class="col-sm-6  pb-3">
+                        <div class="input-group">
+                            <span class="input-group-text">From</span>
+                            <input type="number" step="50" min="50" class="form-control" aria-label="Price from">
+                            <span class="input-group-text">$</span>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 pb-3">
+                        <div class="input-group">
+                            <span class="input-group-text">To</span>
+                            <input type="number" step="50" min="50" class="form-control"
+                                   aria-label="Price to">
+                            <span class="input-group-text">$</span>
+                        </div>
+                    </div>
+                </div>
+                <!--transport-->
+                <div class="form-group py-3">
+                    <span class="h5"><i class="fa-solid fa-truck-plane"></i> Transport</span>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="transport" id="airplane" checked>
+                        <label class="form-check-label" for="airplane">Авіапереліт</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="transport" id="bus">
+                        <label class="form-check-label" for="bus">Автобус</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="transport" id="withoutTransportation">
+                        <label class="form-check-label" for="withoutTransportation">Без транспорту</label>
+                    </div>
+                </div>
 
-            <div class="row">
-                <label for="exampleDataList" class="form-label">Datalist example</label>
-                <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
-                <datalist id="datalistOptions">
-                    <option value="San Francisco">
-                    <option value="New York">
-                    <option value="Seattle">
-                    <option value="Los Angeles">
-                    <option value="Chicago">
-                </datalist>
-                <select class="form-select" aria-label="Default select example">
-                    <option selected>Open this select menu</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
-                </select>
-            </div>
-
-            <!--people-->
-            <div class="row">
-                <label for="customRange2" class="form-label">Example range</label>
-                <input type="range" class="form-range" value="1" min="1" max="10" step="1" id="customRange2">
-                <label for="customRange3" class="form-label">Example range</label>
-                <input type="range" class="form-range" value="0" min="0" max="5" step="1" id="customRange3">
-            </div>
-
-            <!--price-->
-            <div class="input-group">
-                <span class="input-group-text">From</span>
-                <input type="number" step="50" min="50" class="form-control"
-                       aria-label="Dollar amount (with dot and two decimal places)">
-                <span class="input-group-text">$</span>
-            </div>
-            <div class="input-group">
-                <span class="input-group-text">To</span>
-                <input type="number" step="50" min="50" class="form-control"
-                       aria-label="Dollar amount (with dot and two decimal places)">
-                <span class="input-group-text">$</span>
-            </div>
-
-            <!--transport-->
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                <label class="form-check-label" for="flexRadioDefault2">
-                    Default checked radio
-                </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                <label class="form-check-label" for="flexRadioDefault1">
-                    Default radio
-                </label>
-            </div>
-
-            <!--category-->
-            <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                <label class="form-check-label" for="flexCheckDefault">
-                    Default checkbox
-                </label>
-            </div>
-
-            <!--nutrition-->
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                <label class="form-check-label" for="inlineCheckbox1">1</label>
-            </div>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                <label class="form-check-label" for="inlineCheckbox2">2</label>
-            </div>
-
+                <!--nutrition-->
+                <!--Unfinished-->
+                <div class="form-group py-3">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox1">1</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                        <label class="form-check-label" for="inlineCheckbox2">2</label>
+                    </div>
+                </div>
+                <!--category-->
+                <div class="form-group py-3">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Default checkbox
+                        </label>
+                    </div>
+                </div>
+            </form>
         </div>
 
         <div class="col-12 col-md-3 d-flex align-items-start">
@@ -148,7 +203,7 @@
     </div>
 </div>
 
-<footer class="row text-center mt-3">
+<footer class="row text-center mt-3 gx-0">
     <div class="col-12">@ Copyright</div>
 </footer>
 
