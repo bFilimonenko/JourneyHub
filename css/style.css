@@ -9,7 +9,7 @@ body {
 }
 
 header {
-  background: linear-gradient(0deg, #efd9ce, #dec0f1, #b79ced, #957fef, #7161ef);
+  background: linear-gradient(0deg, #efd9ce, #b1cee8, #8ab5dc, #5091cb, #327bab);
   padding-top: 5vh;
   border-bottom: 2px solid #000000;
 }
@@ -39,5 +39,7 @@ header .nav-item i {
 
 main {
   padding-top: 1vh;
-  background: linear-gradient(180deg, #ffffff, #efd9ce, #dec0f1, #b79ced, #957fef, #7161ef);
-}/*# sourceMappingURL=style.css.map */
+  background: linear-gradient(180deg, #ffffff, #efd9ce, #b1cee8, #8ab5dc, #5091cb, #327bab);
+}
+
+/*# sourceMappingURL=style.css.map */
