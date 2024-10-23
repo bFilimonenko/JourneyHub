@@ -37,9 +37,13 @@ header .nav-item i {
   margin-right: 1rem;
 }
 
-main {
-  padding-top: 1vh;
-  background: linear-gradient(180deg, #ffffff, #efd9ce, #b1cee8, #8ab5dc, #5091cb, #327bab);
+footer {
+  background: #327bab;
+}
+footer i {
+  margin-right: 0.5rem;
 }
 
-/*# sourceMappingURL=style.css.map */
+main {
+  background: linear-gradient(180deg, #ffffff, #efd9ce, #b1cee8, #8ab5dc, #5091cb, #327bab);
+}/*# sourceMappingURL=style.css.map */
