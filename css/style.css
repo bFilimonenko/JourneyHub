@@ -37,6 +37,41 @@ header .nav-item i {
   margin-right: 1rem;
 }
 
+.home .tab {
+  display: flex;
+  list-style-type: none;
+  margin-top: 0.5rem;
+  padding-left: 0;
+}
+.home .tab__link {
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  color: #327bab;
+  text-decoration: none;
+  transition: color 0.3s, background-color 0.3s;
+  border: 1px solid #327bab;
+  border-radius: 10px;
+}
+.home .tab__link:hover {
+  border: 1px solid #000000;
+  color: #000000;
+}
+.home aside {
+  padding-top: 1rem;
+}
+.home aside .btn-primary {
+  margin: 0.2rem 0;
+}
+.home .card {
+  border: 1px solid #000000;
+}
+.home div[id^=region]:target {
+  display: block;
+}
+.home div[id^=region]:not(:target) {
+  display: none;
+}
+
 footer {
   background: #327bab;
 }
@@ -46,4 +81,8 @@ footer i {
 
 main {
   background: linear-gradient(180deg, #ffffff, #efd9ce, #b1cee8, #8ab5dc, #5091cb, #327bab);
+}
+
+.btn-primary {
+  background-color: #327bab;
 }/*# sourceMappingURL=style.css.map */
