@@ -1,6 +1,9 @@
 @use "tools";
 
 main {
-  padding-top: 1vh;
   background: tools.$gradient-main;
+}
+
+.btn-primary {
+  background-color: tools.$color-highlight;
 }
