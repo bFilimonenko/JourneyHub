@@ -62,6 +62,30 @@ header .nav-item i {
 .home aside .btn-primary {
   margin: 0.2rem 0;
 }
+.home .about-us {
+  background-color: #5091cb;
+}
+.home .card__title__container {
+  background: url("https://ecooboi.com.ua/files/cache/e4/10/30/ecooboi-ozero-i-gory-10141-1547377347.jpg") no-repeat fixed center;
+  color: #ffffff;
+  background-size: cover;
+  text-shadow: 0 0 5px #000000;
+}
+.home .card__description__container {
+  background-size: cover;
+  background: url("https://www.fonstola.ru/images/202011/fonstola.ru_416689.jpg") fixed center;
+  text-align: center;
+}
+.home .card__description__container p {
+  color: #000000;
+  box-shadow: 0 5px 10px #000000;
+  border-radius: 1rem;
+  text-shadow: 0 0 5px #efd9ce;
+}
+.home .display-5 {
+  color: #ffffff;
+  text-shadow: 0 0 5px #000000;
+}
 .home .card {
   border: 1px solid #000000;
 }
@@ -109,4 +133,6 @@ main {
 
 .btn-primary {
   background-color: #327bab;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */

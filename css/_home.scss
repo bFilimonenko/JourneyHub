@@ -31,6 +31,36 @@
     }
   }
 
+  & .about-us {
+    background-color: tools.$color-additional;
+  }
+
+  //Parallax
+  & .card__title__container {
+    background: url('https://ecooboi.com.ua/files/cache/e4/10/30/ecooboi-ozero-i-gory-10141-1547377347.jpg') no-repeat fixed center;
+    color: tools.$color-base;
+    background-size: cover;
+    text-shadow: 0 0 5px tools.$color-font;
+  }
+
+  & .card__description__container {
+    background-size: cover;
+    background: url("https://www.fonstola.ru/images/202011/fonstola.ru_416689.jpg") fixed center;
+    text-align: center;
+
+    p {
+      color: tools.$color-font;
+      box-shadow: 0 5px 10px tools.$color-font;
+      border-radius: 1rem;
+      text-shadow: 0 0 5px tools.$color-main;
+    }
+  }
+
+  & .display-5 {
+    color: tools.$color-base;
+    text-shadow: 0 0 5px tools.$color-font;
+  }
+
   & .card {
     border: 1px solid tools.$color-font;
   }
