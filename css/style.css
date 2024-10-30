@@ -80,7 +80,7 @@ header .nav-item i {
   color: #000000;
   box-shadow: 0 5px 10px #000000;
   border-radius: 1rem;
-  text-shadow: 0 0 5px #efd9ce;
+  background-color: rgba(255, 255, 255, 0.4);
 }
 .home .display-5 {
   color: #ffffff;
